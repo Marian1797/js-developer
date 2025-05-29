@@ -1,0 +1,16 @@
+<h3>Titlu 2</h3>
+<h2>{{descriere}}</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, error neque itaque, odit nemo voluptates labore libero commodi aperiam eos dolorum eligendi ut sit minus molestiae. Aspernatur reprehenderit accusantium placeat.</p>
+<img *ngIf='myImage' [src]="myimg" alt="">
+
+<h3>Formularul meu</h3>
+<input type="text" [(ngModel)]="descriere"> 
+
+<p>Urmeaza un buton</p>
+<button (click)=salut()>Start</button>
+
+<p>{{myImage}}</p>
+
+
+<button (click)="showImg()">Afiseaza imaginea</button>
+
