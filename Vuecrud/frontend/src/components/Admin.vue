@@ -106,7 +106,7 @@
           });
         } ,   
       statusUser() {
-        UserService.status(this.currentUser.id)
+        UserService.status(this.currentUser.id, this.currentUser.status)
           .then((response) => {
             console.log(response.data);
             this.$router.push({ name: "users" });
