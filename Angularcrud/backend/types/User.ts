@@ -10,7 +10,9 @@ export interface User extends BasicUser {
     cnp?:string,
     poza?:string,
     dataadaugare?:Date,
+    status?:number,
     actiune?:string
+    
 }
 export interface UserWithDetails extends BasicUser, User{
     userId: number,
